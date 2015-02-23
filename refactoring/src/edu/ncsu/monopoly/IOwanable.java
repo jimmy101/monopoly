@@ -2,7 +2,7 @@ package edu.ncsu.monopoly;
 
 public interface IOwanable {
 	
-	public abstract void playAction();
+	public abstract boolean playAction(String mess);
 	
 
 }
