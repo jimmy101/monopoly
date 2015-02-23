@@ -17,9 +17,7 @@ public abstract class Cell implements IOwanable {
 		return 0;
 	}
 
-	public boolean isAvailable() {
-		return available;
-	}
+	
 	
 	public abstract boolean playAction(String mess);
 
