@@ -82,12 +82,12 @@ public class Player {
 		properties.clear();
 	}
     
-    public Cell[] getAllProperties() {
+    public IOwanable[] getAllProperties() {
         ArrayList list = new ArrayList();
         list.addAll(properties);
         list.addAll(utilities);
         list.addAll(railroads);
-        return (Cell[])list.toArray(new Cell[list.size()]);
+        return (IOwanable[])list.toArray(new IOwanable[list.size()]);
     }
 
 	public int getMoney() {
